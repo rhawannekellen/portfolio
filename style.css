@@ -1,0 +1,182 @@
+                            * {
+                                margin: 0;
+                                padding: 0;
+                                border: 0;
+                                max-width: 100%;
+                            }
+                            
+                            .li {
+                                list-style: none;
+                                text-decoration: none;
+                            }
+                            
+                            .cabecalho {
+                                background-color: rgb(154, 98, 24);
+                                height: 6.4375em;
+                                width: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-end;
+                            }
+                            
+                            nav {
+                                margin-right: 3.125em;
+                            }
+                            
+                            .lista-menu li>a {
+                                color: #ffffff;
+                                font-size: 1.125em;
+                                text-decoration: none;
+                                /*utilizado para retirar o subinhado da palavra*/
+                            }
+                            
+                            li {
+                                list-style: none;
+                                /*tira os pontinhos da lista, anula a configuração da tag LI*/
+                                display: inline;
+                                margin-right: 2.5em;
+                                /*margem a direita*/
+                            }
+                            
+                            .nav a {
+                                color: #FFFFFF;
+                                font-size: 1.125em;
+                            }
+                            
+                            .perfil {
+                                text-align: center;
+                                margin-left: auto;
+                                margin-right: auto;
+                                background-color: #EDEAEA;
+                                height: 36.1875em;
+                                max-height: 100%;
+                                padding: 01em;
+                                font-family: 'ABeeZee';
+                                font-size: 1em;
+                                font-style: normal;
+                            }
+                            
+                            .minha-descricao {
+                                font-size: 0.875em;
+                                width: 25.3125em;
+                                margin-left: auto;
+                                margin-right: auto;
+                                margin-top: 1.3125em;
+                                color: black
+                            }
+                            
+                            img {
+                                width: 9.375em;
+                                height: 9.375em;
+                                margin-top: 2.9375em;
+                                /*espaçamento acima*/
+                                margin-bottom: 1.625em;
+                            }
+                            
+                            .meus-projetos {
+                                background-color: #EDEAEA;
+                                height: 37.5em;
+                            }
+                            
+                            .profissao {
+                                color: #C5C0C0;
+                                font-family: 'Open Sans';
+                                font-size: 1.5em;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 140%;
+                            }
+                            
+                            h1 {
+                                color: rgb(154, 98, 24);
+                                text-align: center;
+                                font-family: 'Open Sans';
+                                font-size: 2.25em;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 140%;
+                                /* 50.4px */
+                            }
+                            
+                            .container {
+                                margin-left: auto;
+                                margin-right: auto;
+                                margin-top: 5.375em;
+                                max-width: 46.875em;
+                            }
+                            
+                            .formacao {
+                                display: flex;
+                                flex-direction: column;
+                                margin-top: 6.25em;
+                                margin-bottom: 6.25em;
+                            }
+                            
+                            .titulo-secao {
+                                font-size: 1.5em;
+                                color: rgb(154, 98, 24);
+                                margin-bottom: 3.125em;
+                            }
+                            
+                            .lista-formacao {
+                                padding-left: 2em;
+                            }
+                            
+                            .titulo-formacao {
+                                font-size: 1em;
+                                color: rgb(172, 170, 169);
+                                font-weight: 700;
+                                margin-bottom: 1.25em;
+                            }
+                            
+                            .titulo-projetos {
+                                font-size: 1em;
+                                color: rgb(172, 170, 169);
+                                font-weight: 700;
+                                color: rgb(241, 145, 50);
+                                margin-bottom: 1.25em;
+                            }
+                            
+                            .subtitulo-projeto {
+                                margin-bottom: 0.9375em;
+                                font-family: 'open sans';
+                                font-size: 0.875em;
+                            }
+                            
+                            .site-formacao {
+                                color: #2f80ed;
+                                font-size: 0.875em;
+                            }
+                            
+                            .descricao-formacao {
+                                font-size: 0.875em;
+                                margin-top: 0.5em;
+                                margin-bottom: 3.313em;
+                            }
+                            
+                            .rodape {
+                                background-color: rgb(154, 98, 24);
+                                height: 18.75em;
+                                display: flex;
+                                align-items: center;
+                            }
+                            
+                            .lista-rodape li {
+                                color: #ffffff;
+                                font-size: 1.563em;
+                                margin-bottom: 1.75em;
+                                font-weight: 700;
+                                display: flex;
+                                align-items: center;
+                                margin-left: 1.875em;
+                            }
+                            
+                            .icone {
+                                justify-content: flex-start;
+                                align-items: center;
+                            }
+                            
+                            .links {
+                                text-decoration: none;
+                                color: #fff;
+                            }
